@@ -2,7 +2,39 @@ package com.kurama.day_1;
 
 public class Day_2 {
     public static void main(String[] args) {
-        int i, j;
+   double x, y;
+   byte b;
+   int i;
+   char ch;
+
+   x = 10.1;
+   y = 3.0;
+
+   i = (int) (x / y);
+        System.out.println("Integer " + i);
+   i = 100;
+   b = (byte) i;
+        System.out.println("Value "+ b);
+   i = 257;
+   b = (byte) i;
+        System.out.println("value of b " + b);
+   b = 88;
+   ch = (char) b;
+        System.out.println("char " + ch);
+ /*     int n, d, q;
+
+      n = 10;
+      d = 2;
+      if(d != 0 && (n % d) == 0)
+          System.out.println(d + " is a factor of " + n);
+      d = 0;
+      if(d != 0 && (n % d) == 0)
+          System.out.println(d + " is a factor of " + n);
+        if(d != 0 & (n % d) == 0)
+            System.out.println(d + " is a factor of " + n);
+
+
+        /*  int i, j;
         boolean b1, b2;
 
         i = 10;
