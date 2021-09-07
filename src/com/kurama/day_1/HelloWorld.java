@@ -2,21 +2,14 @@ package com.kurama.day_1;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        int myVar1, myVar2;
-        double rand, myVar3;
+        double gallons, liters;
 
-        myVar1 = 1024;
-        System.out.println("my Var = " + myVar1);
+        gallons = 1;
 
-        myVar2 = myVar1 / 2;
-        System.out.println("My var 2 = " + myVar2);
+        liters = gallons * 3.7854;
 
-        myVar3 = 10.33;
+        System.out.println(gallons + " gallons is " + liters + " liters");
 
-        rand = myVar3 / 4;
-        myVar3 = myVar3/ 4;
-        System.out.println(rand);
-        System.out.println(myVar3);
         // A java comment
     }
 
