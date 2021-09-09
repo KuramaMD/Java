@@ -1,8 +1,56 @@
 package com.kurama.day_1;
 
+
+
 public class Day_2 {
     public static void main(String[] args) {
-   double x, y;
+        int x, count;
+            for (int i = 0; i <= 100; i++) {
+                count = 0;
+                for(x = 1; x <= i; x++)
+                if(i%x==0) {
+                    count++;
+                }
+                if(count == 2)
+                    System.out.println(i);
+            }
+
+        /*
+        boolean p, q;
+        int x, y;
+        System.out.println("P\tQ\tAND\tOR\tXOR\tNOT");
+
+        p = true; q = true;
+        x = p ? 1 : 0;
+        y = q ? 1 : 0;
+        System.out.print(x + "\t" + y + "\t");
+        System.out.print((x&y) + "\t" + (x|y) + "\t");
+        System.out.println((x^y) + "\t" + (1-x));
+
+        p = true; q = false;
+        x = p ? 1 : 0;
+        y = q ? 1 : 0;
+        System.out.print(x + "\t" + y + "\t");
+        System.out.print((x&y) + "\t" + (x|y) + "\t");
+        System.out.println((x^y) + "\t" + (1-x));
+
+        p = false; q = true;
+        x = p ? 1 : 0;
+        y = q ? 1 : 0;
+        System.out.print(x + "\t" + y + "\t");
+        System.out.print((x&y) + "\t" + (x|y) + "\t");
+        System.out.println((x^y) + "\t" + (1-x));
+
+        p = false; q = false;
+        x = p ? 1 : 0;
+        y = q ? 1 : 0;
+        System.out.print(x + "\t" + y + "\t");
+        System.out.print((x&y) + "\t" + (x|y) + "\t");
+        System.out.println((x^y) + "\t" + (1-x));
+
+
+
+ /*  double x, y;
    byte b;
    int i;
    char ch;
